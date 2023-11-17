@@ -37,3 +37,8 @@ npm run dev
 ## How to use the app?
 
 The app is a simple shopping cart that lets you add and remove items from your cart. You can also see the total price of your cart. The app uses Redux Toolkit to manage the state of the cart and the products, and Redux Persist to save the state in the local storage. The app also uses vite to create react app.
+
+## Deployment
+
+The app was deployed @ https://app.netlify.com/  <br/>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eaad306f-378e-43c3-bc3a-a1f576b0e80f/deploy-status)](https://app.netlify.com/sites/simple-redux-cart-app/deploys)
