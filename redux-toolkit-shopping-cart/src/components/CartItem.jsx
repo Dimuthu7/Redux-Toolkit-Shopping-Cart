@@ -34,7 +34,7 @@ export const CartItem = ({ name, quantity, total, price, id, img }) => {
               <img src={img[0]} alt={name} className="img-fluid rounded-3" />
             </div>
             <div className="col-md-3 col-lg-3 col-xl-3">
-              <p className="lead fw-normal mb-2">{name}</p>
+              <p className="lead fw-normal mb-2 cart-item-text">{name}</p>
             </div>
             <div className="col-md-3 col-lg-3 col-xl-2 d-flex">
               <button className="btn btn-link px-2" onClick={fnMinusQty}>
@@ -44,7 +44,7 @@ export const CartItem = ({ name, quantity, total, price, id, img }) => {
                 className="badge bg-primary text-wrap mt-1 fw-bold ms-2 me-2"
                 style={{
                   height: "fit-content",
-                  fontSize: "1.3rem",
+                  fontSize: "1.1rem",
                 }}
               >
                 {quantity}
@@ -54,7 +54,7 @@ export const CartItem = ({ name, quantity, total, price, id, img }) => {
               </button>
             </div>
             <div className="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-              <h5 className="mb-0">
+              <h5 className="mb-0 cart-item-text">
                 LKR {price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
               </h5>
             </div>
