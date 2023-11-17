@@ -44,7 +44,7 @@ export const Cart = (props) => {
         </ModalHeader>
         <ModalBody className="modal-body">
           <section className="h-100" style={{ backgroundColor: "#eee" }}>
-            <div className="container h-100 py-5">
+            <div className="container h-100 py-2">
               <div className="row d-flex justify-content-center align-items-center h-100">
                 <div className="col-10">
                   {cartItems.length === 0 && (
